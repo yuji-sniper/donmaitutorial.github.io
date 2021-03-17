@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+#wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+
+body {
+	font-family: Circular,"ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","MS Gothic","ＭＳ ゴシック","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+  padding: 16px 50px 0 50px;
+  background-image: url(../images/dark.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+.catch-copy-area {
+  margin-bottom: 30px;
+}
+
+.catch-copy {
+  font-size: 40px;
+  color: #d8d8d8;
+}
+
+.to-donmai-app {
+  display: block;
+  margin-bottom: 30px;
+  color: #fffefe;
+  background: #2aa3d4;
+  width: 320px;
+  font-size: 24px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.to-donmai-app:hover {
+  /* opacity: 0.7; */
+  cursor: pointer;
+  background: #167aa2;
+}
+
+.tutorial-top {
+  color: #d4d4d4;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+
+@media (min-width:830px) {
+  .top {
+    width: 830px;
+    margin: 0 auto;
+  }
+}
